@@ -1,5 +1,5 @@
 import React from 'react';
-import { useChatContext } from '../../context/ChatContext';
+import { useChatContext } from '../../provider/ChatContext';
 import { Phone, Video, Info } from 'lucide-react';
 
 const ChatHeader: React.FC = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useChatContext } from '../../context/ChatContext';
+import { useChatContext } from '../../provider/ChatContext';
 import ContactList from './ContactList';
 import { Settings, Sun, Moon } from 'lucide-react';
 

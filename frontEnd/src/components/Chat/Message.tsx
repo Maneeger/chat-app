@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Message as MessageType, User } from '../../types';
-import { useChatContext } from '../../context/ChatContext';
+import { useChatContext } from '../../provider/ChatContext';
 import { Check, SmilePlus } from 'lucide-react';
 import { formatTime } from '../../utils/dateUtils';
 

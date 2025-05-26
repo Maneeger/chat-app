@@ -1,5 +1,5 @@
 import React, { useState, FormEvent } from 'react';
-import { useChatContext } from '../../context/ChatContext';
+import { useChatContext } from '../../provider/ChatContext';
 import { Send, Smile, Paperclip } from 'lucide-react';
 
 const MessageInput: React.FC = () => {

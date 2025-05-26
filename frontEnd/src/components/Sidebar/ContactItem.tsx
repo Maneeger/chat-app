@@ -1,6 +1,6 @@
 import React from 'react';
 import { User, Conversation } from '../../types';
-import { useChatContext } from '../../context/ChatContext';
+import { useChatContext } from '../../provider/ChatContext';
 import { formatTimeAgo } from '../../utils/dateUtils';
 
 type ContactItemProps = {

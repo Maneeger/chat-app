@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useChatContext } from '../../context/ChatContext';
+import { useChatContext } from '../../provider/ChatContext';
 import ContactItem from './ContactItem';
 import { Search } from 'lucide-react';
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { useChatContext } from '../../context/ChatContext';
+import { useChatContext } from '../../provider/ChatContext';
 import Message from './Message';
 
 const MessageList: React.FC = () => {

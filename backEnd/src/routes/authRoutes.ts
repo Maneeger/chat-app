@@ -1,9 +1,20 @@
-import express from 'express';
-import { register, login } from '../controllers/authcontroller';
 
-const router = express.Router();
+import { Router, Request, Response, NextFunction } from 'express'; // Import types from 'express'
+import { Signup, login } from '../controllers/authcontroller';
 
-router.post('/register', register);
-router.post('/login', login);
+const router = Router();
+
+router.post('/api/signup', Signup);
+router.post('/api/login', login);
 
 export default router;
+
+
+
+
+
+
+
+
+
+
